@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E hello.c -o gib.o
+export CFILE=0-main.c ;igcc -E hello.c -o gib.c
