@@ -6,8 +6,7 @@
 * Return: Always 0 (Success)
 */
 int main(void) 
-{
-	int a = 1;
+{	int a = 1;
 	char c = "w";
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
