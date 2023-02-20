@@ -5,7 +5,7 @@
 int main(void) {
     int a = 0;
     srand(time(NULL));
-    a = rand() % 21 - 10;
+    a = rand() % 98 -98;
     if (a > 0) {
         printf("%d is positive\n", a);
     } else if (a == 0) {
