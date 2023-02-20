@@ -9,10 +9,10 @@ else is a is less than 0, it sets the a is negative.Otherwise, it
 sets a is negative.
 */
 
-/* 
- * This is the main function of the program. 
- * It generates a random number between -10 and 10, 
- * and prints whether the number is positive, negative, or zero. 
+/*
+ * This is the main function of the program.
+ * It generates a random number between -10 and 10,
+ * and prints whether the number is positive, negative, or zero.
  */
 int main(void)
 {
