@@ -3,9 +3,10 @@
 #include <time.h>
 
 /*
- * This if statement checks whether the value of x is greater than 10.
-If x is greater than 10, it sets the value of y to 1. Otherwise, it
-sets the value of y to 0.
+ * This if statement checks whether the value of a is positive 0 or negative.
+If a is greater than 0, it sets a is positive.
+else is a is less than 0, it sets the a is negative.Otherwise, it
+sets a is negative.
 */
 
 int main(void)
