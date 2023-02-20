@@ -16,21 +16,21 @@ sets a is negative.
  */
 int main(void)
 {
-int a = 0;
+int n = 0;
 
 srand(time(NULL));
-a = rand() % 98 - 98;
-if (a > 0)
+n = rand() % 98 - 98;
+if (n > 0)
 {
-printf("%d is positive\n", a);
+printf("%d is positive\n", n);
 }
-else if (a == 0)
+else if (n == 0)
 {
-printf("%d is zero\n", a);
+printf("%d is zero\n", n);
 }
 else
 {
-printf("%d is negative\n", a);
+printf("%d is negative\n", n);
 }
 return (0);
 }
