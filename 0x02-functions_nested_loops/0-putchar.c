@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+ 
 /**
- * main - Main fuction
- * return 0
-  */
+ * main - check the code.
+ *
+ * Return: Always 0.
+ */
+
 int main(void)
 {
 printf("_putchar\n");
