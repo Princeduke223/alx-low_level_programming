@@ -1,4 +1,6 @@
 #include <unistd.h>
+#include "main.h"
+#include <stdio.h>
 /*
 *_putchar writes the character c to the output
 *@c:The character to print 
