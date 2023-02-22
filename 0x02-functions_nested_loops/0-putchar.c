@@ -1,14 +1,20 @@
 #include <stdio.h>
 #include "main.h"
- 
-/**
- * main - check the code.
- *
- * Return: Always 0.
+/*
+ * main - Entry point
+ * Return: Always 0
  */
-
 int main(void)
 {
-printf("_putchar\n");
-return (0);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+
+	return(0);
 }
