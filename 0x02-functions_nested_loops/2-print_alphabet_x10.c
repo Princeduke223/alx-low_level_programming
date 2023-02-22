@@ -10,6 +10,7 @@ void print_alphabet_x10(void)
 		while (let <= 'z')
 		{
 			putchar('a');
+			let++;
 		}
 		putchar('\n');
 	}
