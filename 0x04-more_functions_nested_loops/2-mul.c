@@ -3,14 +3,13 @@
 #include <unistd.h>
 /**
  * mul - multiplies two numbers
- * @a:  is the first number
- * @b: is the second number
- * Return - c if successfull
+ * @a:  is the first number to multiply
+ * @b: is the second number to multiply withe the first
+ * Return - the result of multiplication between x param and y parm
  */
 
 int mul(int a, int b)
 {
-	int c;
-	c = a * b;
-	return (c);
+	
+	return (a*b);
 }
